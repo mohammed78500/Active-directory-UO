@@ -1,0 +1,73 @@
+1. Créer une Unité d'Organisation (OU)
+
+1. Ouvrir l'outil "Utilisateurs et ordinateurs Active Directory"
+   - Cliquez sur le bouton Démarrer.
+   - Recherchez et ouvrez Utilisateurs et ordinateurs Active Directory.
+
+2. Naviguer jusqu'à votre domaine
+   - Dans la fenêtre, localisez votre domaine 
+wilders.lan
+.
+
+3. Créer l'Unité d'Organisation
+   - Cliquez avec le bouton droit sur le domaine 
+wilders.lan
+.
+   - Sélectionnez Nouvelle > Unité d'organisation.
+   - Dans la fenêtre qui s'ouvre, entrez le nom de l'OU : 
+Wilders_students
+.
+   - Cliquez sur OK.
+
+2. Créer un Groupe d'utilisateurs
+
+1. Naviguer vers l'Unité d'Organisation
+   - Dans l'outil Utilisateurs et ordinateurs Active Directory, double-cliquez sur 
+Wilders_students
+ pour l'ouvrir.
+
+2. Créer le Groupe
+   - Cliquez avec le bouton droit sur l'OU 
+Wilders_students
+.
+   - Sélectionnez Nouvelle > Groupe.
+   - Dans la fenêtre qui s'ouvre, entrez le nom du groupe : 
+Students
+.
+   - Assurez-vous que le type de groupe est défini sur Sécurité et que la portée est définie sur Global.
+   - Cliquez sur OK.
+
+3. Créer un Utilisateur au sein du Groupe
+
+1. Créer l'utilisateur
+   - Cliquez avec le bouton droit sur l'OU 
+Wilders_students
+.
+   - Sélectionnez Nouvelle > Utilisateur.
+   - Remplissez les informations de l'utilisateur :
+     - Prénom : (par exemple,School
+     - Nom : Wilders
+     - Nom d'ouverture de session : (par exemple, 
+SWilders
+)
+   - Cliquez sur Suivant.
+
+2. Définir le mot de passe
+   - Entrez un mot de passe pour l'utilisateur.
+   - Cochez ou décochez les options selon vos préférences (par exemple, "L'utilisateur doit changer le mot de passe à la prochaine ouverture de session").
+   - Cliquez sur Suivant, puis sur Terminer.
+
+3. Ajouter l'utilisateur au groupe
+   - Cliquez avec le bouton droit sur le groupe 
+Students
+.
+   - Sélectionnez Propriétés.
+   - Allez à l'onglet Membres.
+   - Cliquez sur Ajouter.
+   - Dans la fenêtre qui s'ouvre, entrez le nom de l'utilisateur que vous venez de créer (par exemple, 
+jdupont
+).
+   - Cliquez sur Vérifier les noms pour vous assurer que l'utilisateur est trouvé.
+   - Cliquez sur OK, puis sur Appliquer et OK.
+
+
